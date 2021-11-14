@@ -11,3 +11,58 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+frame-one{
+
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0px;
+
+      position: absolute;
+      left: 1.43%;
+      right: 1.43%;
+      top: 22.16%;
+      bottom: 22.04%;
+
+}
+
+group{
+      
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: #FFFFFF;
+}
+
+group-text{
+  
+      position: absolute;
+      left: 8.53%;
+      right: 73.46%;
+      top: 33.75%;
+      bottom: 35%;
+
+      font-family: Manrope;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 25px;
+
+      color: #0E2A35;
+
+      opacity: 1;
+}
+
+numbersquare{
+  position: absolute;
+left: 2.21%;
+right: 94.12%;
+top: 18.75%;
+bottom: 18.75%;
+
+background: linear-gradient(180deg, #00A9A7 0%, #00BA89 100%);
+}

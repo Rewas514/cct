@@ -7,6 +7,8 @@
   pointer-events: none;
 }
 
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -14,14 +16,11 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: calc(10px + 2vmin);
 }
 
 .App-link {
@@ -35,4 +34,147 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.group{
+     height: 85.72px;
+      position: relative;    
+      width: 90%;
+      margin-left: 5%;
+      margin-right: 5%;
+      background: #FFFFFF;
+      border: 1px dashed #FFFFFF;
+      filter: drop-shadow(3px 3px 15px rgba(0, 0, 0, 0.161));
+      margin-top: 20px;
+}
+
+.frame-one{
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  left: 1.43%;
+  right: 1.43%;
+  top: 22.16%;
+  bottom: 22.04%;
+
+}
+
+
+.group-text{
+
+  position: absolute;
+  left: 116px;
+  top: 33.75%;
+  bottom: 35%;
+
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+
+  color: #0E2A35;
+
+  opacity: 1;
+}
+
+.numbersquare{
+      position: absolute;
+      width: 50px;
+      height: 53.58px;
+      left: 2%;
+      top: 15%;
+      background: linear-gradient(180deg, #00A9A7 0%, #00BA89 100%);
+      font-family: Manrope;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 36px;
+      line-height: 49px;
+      color: #FFFFFF;
+}
+
+#statusline1, #statusline2, #statusline3, #statusline4{
+  position: absolute;
+  left: 0%;
+  right: 85.29%;
+  top: 100%;
+  bottom: 0%;
+  
+
+border: 2px solid #00ADAA;
+}
+
+#statusline1.active, #statusline2.active, #statusline3.active, #statusline4.active{
+  transition: transform .5s ease-in;
+  right: 69% !important;
+}
+
+#click1, #click2, #click3, #click4{
+    min-height: 12vh;
+    display: none;
+    position: relative;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+}
+
+.tickgroup{
+  position: absolute;
+  height: 53.58px;
+  left: 20px;
+  line-height: 49px;
+}
+
+.tickicon {
+  left: 23px;    
+  top: -3px;
+}
+
+.subtext{
+  position: absolute;
+  left: 103px;
+  top: 33.75%;
+  bottom: 35%;
+
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+
+  color: #0E2A35;
+
+  opacity: 1;
+}
+
+.sublist{
+  position: relative;
+  width: 90%;
+  height: 30px;
+  left: 2%;
+}
+
+.ccttitle {
+  position: absolute;
+  left: 5%;
+  /* right: 33.92%; */
+  top: 5.54%;
+  bottom: 81.92%;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 87px;
+  color: #000000;
+}
+
+.sections {
+  width: 100%;
+  top: 160px;
+  position: absolute;
 }
